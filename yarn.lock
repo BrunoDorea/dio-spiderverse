@@ -996,7 +996,7 @@ for-each@^0.3.3:
   dependencies:
     is-callable "^1.1.3"
 
-framer-motion@^10.12.16:
+framer-motion@^10.12.18:
   version "10.12.18"
   resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-10.12.18.tgz"
   integrity sha512-cfhiUpPbj+0eEWKjuD+5cz5cMqH71xOtMxGiS/cSGfHn2OlHIEAqFnFyzEMENw5PxWR9bMVhatzzpD6lexmHZQ==
