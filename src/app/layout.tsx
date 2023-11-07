@@ -33,13 +33,18 @@ export default function RootLayout({
               priority
             />
           </Link>
-          <Image
-            src="/icons/user.svg"
-            alt="Login"
-            width={36}
-            height={36}
-            priority
-          />
+          <Link
+            href="https://github.com/BrunoDorea/dio-spiderverse"
+            target="_blank"
+          >
+            <Image
+              src="/icons/github.svg"
+              alt="Login"
+              width={36}
+              height={36}
+              priority
+            />
+          </Link>
         </header>
         {children}
       </body>
