@@ -3,12 +3,13 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
+import { IHeroData } from "@/interfaces/heroes";
+
 import HeroDetails from "../HeroDetails";
 import HeroPicture from "../HeroPicture";
 
-import styles from "./carousel.module.scss";
 
-import { IHeroData } from "@/interfaces/heroes";
+import styles from "./carousel.module.scss";
 
 interface IProps {
   heroes: IHeroData[];
