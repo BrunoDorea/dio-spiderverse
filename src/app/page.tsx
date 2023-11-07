@@ -4,7 +4,8 @@ import { IHeroData } from "@/interfaces/heroes";
 import styles from "./page.module.scss";
 
 async function getData(): Promise<{ data: IHeroData[] }> {
-  const res = await fetch("http://localhost:3000/api/heroes");
+  // const res = await fetch("http://localhost:3000/api/heroes");
+  const res = await fetch("http://dio-spiderverse-1p9840lyd-brunodorea.vercel.app/api/heroes");
 
   if (!res.ok) {
     throw new Error("Falha ao buscar heróis");
